@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(185, 146, 94);
+}
+
+#container {
+  height: 500px;
+  width: 360px;
+  margin: 100px auto;
+  background-color: #dddbdb;
+  border-radius: 15px;
+}
+
+h1 {
+  background-color: rgb(85, 44, 17);
+  color:#fff;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#amountB {
+  font-size: 14px;
+  color: black;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#amountB:focus {
+  background: rgb(164, 198, 204);
+  border: 3px solid #77460d;
+  outline: none;
+}
+#chooseOption {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+  }
+#chooseOption:focus {
+  background: rgb(164, 198, 204);
+  border: 3px solid #77460d;
+  outline: none;
+}
+
+#amountPeople {
+  font-size:14px;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color:#000000;
+  }
+  #amountPeople:focus{
+  background: rgb(164, 198, 204);
+  border: 3px solid #77460d;
+  outline: none;
+  }
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: rgb(192, 87, 38);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #d11812;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#resultTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#resultTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#resultTip sup {
+  font-size: 20px;
+  top: -18px;
+}
